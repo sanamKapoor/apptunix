@@ -7,9 +7,4 @@ routes.post('/create', createTodo);
 routes.put('/update/:id', updateTodo);
 routes.delete('/delete/:id', deleteTodo);
 
-
-routes.get('/sdhfkj', (req, res) => {
-    jgjhjgj
-})
-
 module.exports = routes;
